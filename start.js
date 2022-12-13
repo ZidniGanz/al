@@ -16,7 +16,7 @@ app.set("json spaces", 2);
 app.use(api);
 
 app.listen(PORT, () => {
-console.log(port)
+console.log(PORT)
 });
 
 module.exports = app;
