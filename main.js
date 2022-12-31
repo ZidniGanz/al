@@ -12,7 +12,6 @@ router.get('/welcome', async(req, res) => {
      var member = req.query.member
       var bg = req.query.bg
        var pp = req.query.pp
-
 	if (!name) return res.json({ message: 'Masukan parameter name?='})
   if (!gcname) return res.json({ message: 'Masukan parameter &gcname?='})
 if (!ppgc) return res.json({ message: 'Masukan parameter &ppgc?='})
@@ -56,5 +55,5 @@ const image = await new knights.Goodbye()
  data = image.toBuffer();
     res.set({'Content-Type': 'png'})
 res.send(data)
-  });
+  })
 module.exports = router;
