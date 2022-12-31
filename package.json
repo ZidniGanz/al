@@ -2,7 +2,7 @@
   "name": "zoro",
   "version": "1.0.0",
   "description": "template simples e elegante para apis whatsapp",
-  "main": "index.js",
+  "main": "start.js",
   "dependencies": {
     "knights-canvas": "*",
     "cookie-parser": "^1.4.5",
@@ -13,7 +13,7 @@
    },
   "devDependencies": {},
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
