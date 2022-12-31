@@ -4,7 +4,7 @@
   "description": "template simples e elegante para apis whatsapp",
   "main": "index.js",
   "dependencies": {
-    "openai": "*",
+    "knights-canvas": "*",
     "cookie-parser": "^1.4.5",
     "cors": "^2.8.5",
     "express": "^4.17.1",
